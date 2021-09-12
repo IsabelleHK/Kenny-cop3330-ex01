@@ -5,6 +5,7 @@
 
 package com.company;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,6 @@ public class Main {
         System.out.println("Enter your name: ");
 
         String userName = userInput.nextLine();
-        System.out.println("Hello, " + userName + ", nice to meet you!");
+        JOptionPane.showMessageDialog(null, "Hello, " + userName + ", nice to meet you!");
     }
 }
