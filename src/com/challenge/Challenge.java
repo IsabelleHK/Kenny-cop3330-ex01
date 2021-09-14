@@ -3,17 +3,17 @@
     Copyright 2021 Isabelle Kenny
  */
 
-package com.company;
+package com.challenge;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
-
-public class Main {
+public class Challenge {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        System.out. println("What is your name?");
+        System.out.println("What is your name?");
 
         String userName = userInput.nextLine();
-        System.out.println("Hello, " + userName + ", nice to meet you!");
+        JOptionPane.showMessageDialog(null, "Hello, " + userName + ", nice to meet you!");
+
     }
 }
-
